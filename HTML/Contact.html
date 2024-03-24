@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Css/Contact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="Afb/fietser-nb.png">
+
+</head>
+
+<body>
+    <article>
+        <div class="parent">
+            <div class="Navbar">
+                <nav class="nav">
+                    <a href="Home.html">Home</a>
+                    <a href="Fietsen.html">Fietsen</a>
+                    <a href="Verhuur.html">Verhuur</a>
+                    <a href="Contact.html">Contact</a>
+                    <a href="Openingstijden.html">Openingstijden</a>
+                    <a href="Overons.html">Over ons</a>
+                    <a href="ExtraInformatie.html">Extra Informatie</a>
+
+                </nav>
+            </div>
+            <div class="Logo"> <img src="Afb/fietser-nb.png" alt="Logo organisatie" style="height: 75px;"></div>
+            <div class="div3"><box-icon name='search'></box-icon> <i class='bx bx-search'></i><input type="text"
+                    placeholder="Search.."></div>
+            <div class="div4"></div>
+            <div class="div8">
+                <form action="/action_page.php">
+                    <label for="fname">Voornaam:</label>
+                    <br>
+                    <input type="text" id="fname" name="fname" value="" required>
+                    <br>
+                    <br>
+                    <br>
+                    <label for="e-mail">E-mail:</label>
+                    <br>
+                    <input type="text" id="e-mail" name="e-mail" value="" required>
+                    <br>
+                    <br>
+                    <br>
+                    <label for="phone">Telefoonnummer:</label>
+                    <br>
+                    <input type="tel" id="phone" name="phone" placeholder="06 0000000000" pattern="[0-9]{2}[0-9]{8}"
+                        required>
+                    <br>
+                    <br>
+                    <br>
+                    <label for="Bericht">Bericht</label>
+                    <br>
+                    <textarea id="Bericht" name="Bericht" rows="4" cols="50"></textarea>
+                    <br>
+                    <br>
+                    <input type="submit" value="Versturen">
+                    <input type="reset">
+
+                </form>
+            </div>
+        </div>
+    </article>
+    <footer>     
+        <div class="Link-footer">
+            <a href="Overons.html">Over ons</a>
+            
+            <br>
+            <a href="Contact.html">Contact info</a>
+            <br>
+            <a href="#" >Facebook</a>
+            
+            
+        </div>
+        <div class="Text-middle">
+            KVK: 88599665 | BTW NL999888492Z0 | &copy; 2021 Fluitende Fietser
+            <br>
+            <a href="mailto:info@fluitendefietser.nl">mailto:info@fluitendefietser.nl</a>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<a href="Afb/Algemene-voorwaarden-BOVAG-tweewielerbedrijven-april-2018.pdf"target="_blank">Algemene-voorwaarden</a>
+            <img id="moving-image1" class="moving-image" src="Afb/fiets-standaard-footer.png" alt="Moving Image 1" style="display: block; height: 25px;"  >
+        </div>
+    </footer>
+</body>
+
+</html>

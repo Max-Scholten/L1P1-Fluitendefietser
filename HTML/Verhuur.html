@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Css/Verhuur.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Verhuur</title>
+    <link rel="icon" type="image/x-icon" href="Afb/fietser-nb.png">
+
+</head>
+
+<body>
+    <article>
+        <div class="parent">
+            <div class="Navbar">
+                <nav class="nav">
+                    <a href="Home.html">Home</a>
+                    <a href="Fietsen.html">Fietsen</a>
+                    <a href="Verhuur.html">Verhuur</a>
+                    <a href="Contact.html">Contact</a>
+                    <a href="Openingstijden.html">Openingstijden</a>
+                    <a href="Overons.html">Over ons</a>
+                    <a href="ExtraInformatie.html">Extra Informatie</a>
+
+                </nav>
+            </div>
+            <div class="Logo"> <img src="Afb/fietser-nb.png" alt="Logo organisatie" style="height: 75px;"></div>
+            <div class="Search-bar"> <box-icon name='search'></box-icon> <i class='bx bx-search'></i><input type="text"
+                    placeholder="Search.."></div>
+            <div class="VoorbeelA"><img src="Afb/Gazelle_CityGo_C7.jpg" alt="Gazelle_CityGo_C7" style="height: 100px;">
+                <p>Gazelle_CityGo</p>
+
+            </div>
+            <div class="VoorbeelB"><img src="Afb/Gazelle_Orange_C7.jpg" alt="Gazelle_Orange_C7" style="height: 100px;">
+                <p>Gazelle_Orange_C7</p>
+            </div>
+            <div class="VoorbeelC"><img src="Afb/Pelikaan_Carry_On_Lady.jpg" alt="Pelikaan_Carry_On_Lady"
+                    style="height: 100px;">
+                <p>Pelikaan_Carry_On_Lady</p>
+            </div>
+            <div class="VoorbeelD"><img src="Afb/Stella_Allegra_voorwielmotor.jpg" alt="Stella_Allegra_voorwielmotor"
+                    style="height: 100px;">
+                <p>Stella_Allegra_voorwielmotor</p>
+            </div>
+            <div class="Contact">
+                <h1>Fiets huren</h1>
+                <br>
+                <br>
+                <form action="/action_page.php">
+                    <label for="date">Huur dag:</label>
+                    <input type="date" id="date" name="date">
+                    <br>
+                    <br>
+                    <br>
+                    <label for="select">Welke fiets</label>
+                    <select id="select" name="select">
+                        <option value="1">Gazelle_CityGo</option>
+                        <option value="2">Gazelle_Orange_C7</option>
+                        <option value="3">Pelikaan_Carry_On_Lady</option>
+                        <option value="4">Stella_Allegra_voorwielmotor</option>
+                    </select>
+                    <br>
+                    <br>
+                    <br>
+                    <label for="duration">Lengte van de Huur:</label>
+                    <select id="duration" name="duration">
+                        <option value="1">1 day</option>
+                        <option value="2">2 days</option>
+                        <option value="3">3 days</option>
+                        <option value="4">4 days</option>
+                        <option value="5">5 days</option>
+                    </select>
+                    <br>
+                    <br>
+                    <br>
+                    <label for="price">Prijs:</label>
+                    <input type="text" id="price" name="price" value="€10 per day" readonly>
+                    <br>
+                    <br>
+                    <br>
+                    <label for="deposit">Deposit:</label>
+                    <input type="text" id="deposit" name="deposit" value="€50" readonly><br><br>
+                    <br>
+                    <br>
+                    <input type="submit" value="Bestellen">
+                </form>
+            </div>
+        </div>
+    </article>
+    <footer>     
+        <div class="Link-footer">
+            <a href="Overons.html">Over ons</a>
+            
+            <br>
+            <a href="Contact.html">Contact info</a>
+            <br>
+            <a href="#" >Facebook</a>
+            
+            
+        </div>
+        <div class="Text-middle">
+            KVK: 88599665 | BTW NL999888492Z0 | &copy; 2021 Fluitende Fietser
+            <br>
+            <a href="mailto:info@fluitendefietser.nl">mailto:info@fluitendefietser.nl</a>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<a href="Afb/Algemene-voorwaarden-BOVAG-tweewielerbedrijven-april-2018.pdf"target="_blank">Algemene-voorwaarden</a>
+            <img id="moving-image1" class="moving-image" src="Afb/fiets-standaard-footer.png" alt="Moving Image 1" style="display: block; height: 25px;"  >
+        </div>
+    </footer>
+</body>
+
+</html>
